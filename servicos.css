@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a0a;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    padding: 0 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header img{
+    height: 200px;
+}
+
+header .titulo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    color: darkorange;
+}
+
+.servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.servicos img{
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.servicos .servico-tubo,
+.servicos .servico-sanitarios,
+.servicos .servico-vazamentos,
+.servicos .servico-emergencia,
+.servicos .servico-inspecao {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.servicos h3{
+    margin-bottom: 10px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.servicos p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
