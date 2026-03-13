@@ -85,3 +85,53 @@ button{
 button:hover{
     background-color: orangered;
 }
+
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        margin: 20px 10px;
+    }
+
+    header img {
+        height: 140px;
+    }
+
+    header .titulo {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .servicos {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .servicos .servico-tubo,
+    .servicos .servico-sanitarios,
+    .servicos .servico-vazamentos,
+    .servicos .servico-emergencia,
+    .servicos .servico-inspecao {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .servicos img {
+        height: 160px;
+    }
+
+    .servicos p {
+        font-size: 15px;
+    }
+
+    button {
+        width: 90%;
+        font-size: 18px;
+        padding: 12px;
+    }
+}
